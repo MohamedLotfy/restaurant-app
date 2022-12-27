@@ -1,0 +1,10 @@
+extends layout
+
+block content 
+  .inner 
+    form.form(method='POST')
+      label(for="pass") Password 
+      input(type="password" id="pass" name="password")
+      label(for="pass-confirm") Confirm Password 
+      input(type="password" id="pass-confirm" name="password-confirm")
+      input.button(type="submit" value="Reset Password")
